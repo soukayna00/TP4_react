@@ -24,7 +24,7 @@ function App() {
         <div className='App'>
             {meal.map((mealdata, index) => (
                 <div className='meal_holder' key={index}>
-                    <img src={mealdata.strMealThumb} alt='Randommeal' style={{ height: '250px', width: '500px',borderRadius:'40px'}} />
+                    <img src={mealdata.strMealThumb} alt='Randommeal' style={{ height: '200px', width: '450px',borderRadius:'40px'}} />
                     <h1>{mealdata.strMeal} </h1>
                 <h3><i>{mealdata.strCategory}</i>  Origin : {mealdata.strArea}</h3>
                     <p>{mealdata.strInstructions}</p>
