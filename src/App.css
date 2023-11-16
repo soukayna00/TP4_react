@@ -58,6 +58,11 @@
 
 
 }
+.image_meal{
+   height: '200px';
+   width: '450px';
+   border-radius:'40px';
+}
 
 .meal_holder>h1 {
   color: #0B5BC6;
@@ -77,22 +82,37 @@
 
 
 
-@media screen and (max-width: 668px) {
-  .holder {
-    max-height: 230px;
-  
-  }
+@media screen and (max-width: 468px) {
+@media screen and (max-width: 300px) {
+    .holder {
+      max-height: 180px;
+      /* Adjust as needed */
+    }
 
-  .meal_holder {
-    width: 100%;
-    border-radius: 15px;
-    padding: 5px;
-    margin: 5px;
-  }
+    .meal_holder {
+      width: 100%;
+      border-radius: 15px;
+      padding: 5px;
+      margin: 5px;
+    }
 
-  .meal_holder>h1 {
-    font-size: 16px;
-    
+    .meal_holder>h1 {
+      font-size: 12px;
+      /* Adjust as needed */
+    }
+
+    .meal_holder img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .meal_holder {
+      height: 100%;
+      max-width: 100px;
+      /* Adjust as needed */
+      margin: 5px;
+      /* Adjust as needed */
+    }
   }
 }
 
