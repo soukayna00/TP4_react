@@ -82,11 +82,11 @@
 
 
 
-@media screen and (max-width: 468px) {
+
 @media screen and (max-width: 300px) {
     .holder {
       max-height: 180px;
-      /* Adjust as needed */
+     
     }
 
     .meal_holder {
@@ -98,7 +98,7 @@
 
     .meal_holder>h1 {
       font-size: 12px;
-      /* Adjust as needed */
+    
     }
 
     .meal_holder img {
@@ -109,9 +109,8 @@
     .meal_holder {
       height: 100%;
       max-width: 100px;
-      /* Adjust as needed */
       margin: 5px;
-      /* Adjust as needed */
+    
     }
   }
 }
