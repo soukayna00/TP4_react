@@ -48,7 +48,7 @@
   padding: 20px;
   margin: 20px;
   background-color: #fefeff;
-  box-shadow: 10px 10px 20px 10px #0B5BC6;
+  box-shadow: 10px 10px 20px 10px #887611;
   text-align: center;
   color: #2d2e2f;
   justify-content: center;
@@ -58,59 +58,50 @@
 
 
 }
-.image_meal{
-   height: '200px';
-   width: '450px';
-   border-radius:'40px';
+
+.image_meal {
+  height: '200px';
+  width: '450px';
+  border-radius: '40px';
 }
 
 .meal_holder>h1 {
-  color: #0B5BC6;
+  color: #887611;
+}
+
+/*/ mobile */
+
+
+@media screen and (max-width: 576px) {
+  .holder {
+    max-height: none;
+  
+  }
+
+  .meal_holder {
+    width: 90%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+
+  .image_meal {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+
+
+@media screen and (min-width: 576px) {
+  .meal_holder {
+    width: 70%;
+  }
 }
 
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 
 
-
-@media screen and (max-width: 300px) {
-    .holder {
-      max-height: 180px;
-     
-    }
-
-    .meal_holder {
-      width: 100%;
-      border-radius: 15px;
-      padding: 5px;
-      margin: 5px;
-    }
-
-    .meal_holder>h1 {
-      font-size: 12px;
-    
-    }
-
-    .meal_holder img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .meal_holder {
-      height: 100%;
-      max-width: 100px;
-      margin: 5px;
-    
-    }
-  }
 
